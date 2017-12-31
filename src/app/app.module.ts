@@ -1,16 +1,25 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
+import { NgModule, Component, ViewChild } from '@angular/core';
+import { 
+  DxSelectBoxModule,
+  DxButtonModule,
+  DxDataGridModule
+} from 'devextreme-angular';
 
 import { AppComponent } from './app.component';
+import { LevelSelectorComponent } from './level-selector/level-selector.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LevelSelectorComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    DxSelectBoxModule,
+    DxButtonModule,
+    DxDataGridModule
   ],
   providers: [],
   bootstrap: [AppComponent]

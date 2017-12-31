@@ -1,0 +1,2 @@
+<div *ngIf="!isEditable">{{type}}</div>
+<dx-select-box *ngIf="isEditable" [dataSource]="levels" valueExpr="type" displayExpr="type"></dx-select-box>
