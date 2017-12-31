@@ -1,10 +1,11 @@
-# ComboApp
+# DxSelectBoxAngular4
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.2.
+It's a sample app to reproduce an issue using a custom Angular Component as a template for cell editor of a DxDataGrid. Problem is to store selected value from the DxSelectBoxComponent in the custom component.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4202/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
